@@ -18,7 +18,7 @@ header {
 
 #mainContent {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -110,4 +110,12 @@ header {
 
 .deleteBtn:hover {
     text-decoration: underline;
+}
+
+#historyCardsContainer{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  margin-top: 10px;
 }
