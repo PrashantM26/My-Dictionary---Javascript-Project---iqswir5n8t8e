@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./P1Style.css">
+    <script src="./P1Script.js" defer></script>
+    <title>Dictionary App</title>
+</head>
+<body>
+    <header>
+        <button id="historyBtn">History</button>
+    </header>
+    
+    <main id="mainContent">
+        <div id="searchContainer">
+            <input type="text" id="searchInput" placeholder="Enter a word">
+            <button id="searchBtn">Search</button>
+        </div>
+        <div id="searchCardsContainer"></div>
+    </main>
 
+    <div id="historyPage" class="hidden">
+        <h2>Search History</h2>
+        <button id="clearHistoryBtn">Clear History</button>
+        <div id="historyCardsContainer"></div>
+    </div>
+</body>
+</html>
